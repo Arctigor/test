@@ -1,0 +1,6 @@
+mvn archetype:generate -DgroupId=ut.cluj.packaging
+   -DartifactId=test 
+   -DarchetypeArtifactId=testing-archetype
+   -DinteractiveMode=false
+   
+   mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=com.mycompany.app -DartifactId=my-app
