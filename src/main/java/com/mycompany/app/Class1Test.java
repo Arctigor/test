@@ -22,6 +22,7 @@ public class Class1Test {
 	public void testGetName2() {
 		assertEquals(true, false);
 		
+		
 		//fail("Not yet implemented");
 	}
 
