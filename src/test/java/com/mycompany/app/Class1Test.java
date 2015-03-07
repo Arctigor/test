@@ -1,27 +1,20 @@
 package com.mycompany.app;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-import org.hamcrest.core.Is;
 import org.junit.Before;
 import org.junit.Test;
 
 public class Class1Test {
-
+	Class1 class1;
 	@Before
 	public void setUp() throws Exception {
+		class1 = new Class1();
 	}
 
 	@Test
 	public void testGetName() {
-		assertEquals(true, true);
-		
-		//fail("Not yet implemented");
-	}
-	@Test
-	public void testGetName2() {
-		assertEquals(true, false);
-		
+		assertEquals(class1.getName(), "name");
 		
 		//fail("Not yet implemented");
 	}

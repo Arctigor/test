@@ -12,6 +12,8 @@ public class AppTest {
 
 	@Test
 	public void testApp() {
+		App app = new App();
+		
 		assertEquals(true, true);
 		
 		//fail("Not yet implemented");
