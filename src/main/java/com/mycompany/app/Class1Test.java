@@ -15,6 +15,7 @@ public class Class1Test {
 	@Test
 	public void testGetName() {
 		assertEquals(true, true);
+		
 		//fail("Not yet implemented");
 	}
 
