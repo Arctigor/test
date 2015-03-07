@@ -14,7 +14,8 @@ public class Class1Test {
 
 	@Test
 	public void testGetName() {
-		assertEquals(class1.getName(), "name");
+		assertEquals(class1.getName(), "nam");
+		
 		
 		//fail("Not yet implemented");
 	}
